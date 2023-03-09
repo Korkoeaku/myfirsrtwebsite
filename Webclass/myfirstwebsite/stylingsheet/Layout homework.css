@@ -1,0 +1,50 @@
+.main1 img{
+    width: 100%;
+}
+.header1{
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  left:0%;
+  font-size: x-large;
+  background-color: white;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+    
+}
+
+.paragraph1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellowgreen;
+    font-size: larger;
+    text-align: left;
+     position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 10px;%;
+    padding: 10px;
+
+
+}
+
+.watertreatment {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    margin-top: 20px;
+  }
+
+
+}
+  
+.typeoftreatment {
+  position: relative;
+  background-color: rgb(16, 163, 231);
+  color: black;
+  height: auto;
+}
+
+.item-content {
+  padding: 10px;
+}

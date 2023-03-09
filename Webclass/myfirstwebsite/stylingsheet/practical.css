@@ -1,0 +1,43 @@
+.background{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+
+
+}
+.Header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-area: auto;
+    color: black;
+    flex: auto auto;
+    flex-direction: column;
+
+}
+
+.body{
+    display:flex;
+    position: absolute;
+    
+}
+
+.text{
+    position: absolute;
+    padding: 10%;
+    margin-top: 2%;
+    color: yellow;
+    font-style: italic;
+}
+
+  
+@media screen and  (min-width:500px){
+
+    .text{
+        display: flex;
+        flex: auto auto;
+    }
+    
+}

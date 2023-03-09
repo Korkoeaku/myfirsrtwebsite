@@ -1,0 +1,43 @@
+.element{
+    background-color: rgb(252, 249, 246);
+    font-family:'Poppins', sans-serif;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 3px;
+}
+
+.header{
+    color: aqua;
+    size: 20%;
+    stroke-width: 2%;
+}
+.list{
+    display: flex;
+    color: #000;
+}
+@media screen and (min-width:600px) {
+    .header{
+        display: flex;
+        flex: auto auto;
+        
+    }
+    
+}
+@media screen and (min-width:1000px) {
+    .header{
+        display: flex;
+        flex: auto auto auto auto;
+    }
+    
+}
+
+.image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:5%;
+    padding-top: 20%;
+    padding-right: 100%;
+    align-items: end;
+  }
+
+

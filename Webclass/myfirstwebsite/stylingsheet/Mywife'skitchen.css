@@ -1,0 +1,70 @@
+.H1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.img{
+   
+    
+    margin-top: 20px;
+    
+}
+
+
+.Content{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5%;
+}
+
+.body{
+    
+    
+    background-color: yellow;
+}
+
+.Picture{
+    width: 300px;
+    height: 250px;
+}
+.content{
+    position: relative;
+    color:blue;
+    height: auto; 
+    padding: 10px; ;  
+    border: 3px;
+}
+.floating-btn{
+position: absolute;
+top: 4px;
+left: 0;
+}
+
+.testbox {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: Brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.foodgrouping{
+    flex: content;
+    justify-content: center;
+  align-items: center;
+}

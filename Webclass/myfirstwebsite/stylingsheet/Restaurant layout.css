@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <h1>
+      This is a static template, there is no bundler or bundling involved!
+    </h1>
+    <p class="myname" id="newName">Hi i am Adeenatu</p>
+    <h1 class="boxmodel">Good Morning</h1>
+    <div class="fixed"> I am a div to be made fixed</dviv>
+  
+
+    <div class="services">
+      <div class="item"> 
+        <img class="img-menu" src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+       <div class="item-content"> 
+          <h3>Book a Seat</h3>
+        <p>We serve Biryana , Coche, Dokunu</p>
+        <button class="btn">Book Seat</button>
+       </div>
+       <button class="floating-btn btn">Reservation</button>  
+      </div>
+      <div class="item"> 
+          <img class="img-menu" src="https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+          <div class="item-content"> 
+              <h3>Our Menu</h3>
+              <p>We serve Biryana , Coche, Dokunu</p>
+              <button class="btn">See Menu</button>
+          </div>
+          <button class="floating-btn btn">Delicios Menu</button>  
+        </div>
+        <div class="item"> 
+            <img class="img-menu" src="https://images.pexels.com/photos/375889/pexels-photo-375889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            <div class="item-content">
+                <h3>Working Hours</h3>
+                <p>We serve Biryana , Coche, Dokunu</p>
+                <button class="btn">Contact</button>  
+            </div>
+            <button class="floating-btn btn">Contact</button>  
+          </div>
+    </div>
+
+  
+    </body>
+</html>

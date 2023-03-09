@@ -1,0 +1,65 @@
+.head{
+    background-color: rgb(236, 215, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 5px;
+    float: inline-start;
+    text-align: center;
+    text-shadow: 13cqmax;
+    
+}
+.images{
+    width: fit-content;
+    height: fit-content;
+}
+.paragraph{
+    font-size: xx-large;
+    background-color: gold;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 5px;
+    float: inline-start;
+    fill: aqua;
+    font-style: italic;
+    text-align: left;
+    
+    border: 2px solid;
+   
+
+}
+.paragraph p{
+    color: aqua;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactimage img{
+height: 25px;
+width: 25px;
+float: left;
+}
+.happypeople{
+    width: 50px;
+    height: 50px;
+    image-resolution: 50px;
+
+}
+.h2{
+    background-color: green;
+    font-style: italic;
+    text-align: center;
+}
+.container{
+    padding: 10px;
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    float: inline-end;
+    text-align: right;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
